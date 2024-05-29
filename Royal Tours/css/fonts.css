@@ -1,0 +1,29 @@
+/* 
+Livvic(button fonts) - 400: Buttons
+Abel(primary fonts) - 400, 700: Nav-links, Carousel all Text except buttons, Wallpaper small text, blogpost capsules, popular post calender, popular tag capsules
+Lexend(secondary fonts) - 400, 700: Brand logo, wallpaper big text, sidebar titles, blog post text, pagination, entire footer
+Anton(headline fonts) - 400: Blog post headlines, popular post headlines
+*/
+
+/* Livvic */
+@font-face{
+    font-family: "livvic";
+    src: url("/css/google_fonts/Livvic/Livvic-Regular.ttf");
+}
+/* Abel */
+@font-face{
+    font-family: "abel";
+    src: url("/css/google_fonts/Abel/Abel-Regular.ttf");
+}
+
+/* Lexend */
+@font-face{
+    font-family: "lexend";
+    src: url("/css/google_fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf");
+}
+
+/* Anton */
+@font-face{
+    font-family: "anton";
+    src: url("/css/google_fonts/Anton/Anton-Regular.ttf");
+}

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------------------- Fontawesome CSS --------------------- -->
+    <link rel="stylesheet" href="/css/all.min.css">
+
+    <!-- --------------------- Owl Carousel CSS --------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- --------------------- AOS CSS --------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- --------------------- Custom CSS --------------------- -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Royal Tours | Home</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="brand_logo" href="/index.html">Royal Tours</a>
+
+            <i onclick="document.querySelector('.nav_toggle').classList.toggle('nav_expand')"
+                class="fa-solid fa-bars bar_icon"></i>
+            <div class="nav_toggle">
+                <ul class="nav_menu">
+                    <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Category</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Archive</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Pages</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Contact Us</a></li>
+                </ul>
+                <div class="social_handles">
+                    <a href="#" class="social_link">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social_link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social_link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social_link">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <ul class="nav_menu_lg">
+                <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Category</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Archive</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Pages</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Contact Us</a></li>
+            </ul>
+            <div class="social_handles_lg">
+                <a href="#" class="social_link">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social_link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="social_link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="social_link">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </nav>
+
+        <div class="banner-container">
+            <div class="banner-text" data-aos="fade-up">
+                <h2 class="banner-title">Tours & Travels</h2>
+                <h3 class="banner-headline">Amazing Place On Earth</h3>
+                <button class="btn banner-btn">Explore</button>
+            </div>
+            <!-- wave-1 -->
+            <svg id="wave" viewBox="0 0 1440 330">
+                <path style="transform:translate(0, 0px); opacity:1" fill="#fff"
+                    d="M0,72L34.3,96C68.6,120,137,168,206,210C274.3,252,343,288,411,306C480,324,549,324,617,294C685.7,264,754,204,823,156C891.4,108,960,72,1029,78C1097.1,84,1166,132,1234,180C1302.9,228,1371,276,1440,288C1508.6,300,1577,276,1646,270C1714.3,264,1783,276,1851,240C1920,204,1989,120,2057,126C2125.7,132,2194,228,2263,234C2331.4,240,2400,156,2469,150C2537.1,144,2606,216,2674,240C2742.9,264,2811,240,2880,204C2948.6,168,3017,120,3086,114C3154.3,108,3223,144,3291,132C3360,120,3429,60,3497,78C3565.7,96,3634,192,3703,210C3771.4,228,3840,168,3909,144C3977.1,120,4046,132,4114,168C4182.9,204,4251,264,4320,288C4388.6,312,4457,300,4526,252C4594.3,204,4663,120,4731,102C4800,84,4869,132,4903,156L4937.1,180L4937.1,360L4902.9,360C4868.6,360,4800,360,4731,360C4662.9,360,4594,360,4526,360C4457.1,360,4389,360,4320,360C4251.4,360,4183,360,4114,360C4045.7,360,3977,360,3909,360C3840,360,3771,360,3703,360C3634.3,360,3566,360,3497,360C3428.6,360,3360,360,3291,360C3222.9,360,3154,360,3086,360C3017.1,360,2949,360,2880,360C2811.4,360,2743,360,2674,360C2605.7,360,2537,360,2469,360C2400,360,2331,360,2263,360C2194.3,360,2126,360,2057,360C1988.6,360,1920,360,1851,360C1782.9,360,1714,360,1646,360C1577.1,360,1509,360,1440,360C1371.4,360,1303,360,1234,360C1165.7,360,1097,360,1029,360C960,360,891,360,823,360C754.3,360,686,360,617,360C548.6,360,480,360,411,360C342.9,360,274,360,206,360C137.1,360,69,360,34,360L0,360Z">
+                </path>
+            </svg>
+
+        </div>
+    </header>
+    <main>
+
+        <!-- --------------------- Owl Carousel --------------------- -->
+
+        <div class="owl-carousel owl-theme carousel">
+            <div class="item" data-aos="fade-right">
+                <img src="/assets/carousel/post-1.jpg" alt="">
+                <h3>London Fashion Week's Continued Evolution</h3>
+                <button class="btn">Fashion</button>
+                <p>2 minutes</p>
+            </div>
+            <div class="item">
+                <img src="/assets/carousel/post-2.jpg" alt="">
+                <h3>London Fashion Week's Continued Evolution</h3>
+                <button class="btn">Fashion</button>
+                <p>2 minutes</p>
+            </div>
+            <div class="item">
+                <img src="/assets/carousel/post-3.jpg" alt="">
+                <h3>London Fashion Week's Continued Evolution</h3>
+                <button class="btn">Fashion</button>
+                <p>2 minutes</p>
+            </div>
+            <div class="item">
+                <img src="/assets/carousel/post-4.png" alt="">
+                <h3>London Fashion Week's Continued Evolution</h3>
+                <button class="btn">Fashion</button>
+                <p>2 minutes</p>
+            </div>
+            <div class="item">
+                <img src="/assets/carousel/post-5.png" alt="">
+                <h3>London Fashion Week's Continued Evolution</h3>
+                <button class="btn">Fashion</button>
+                <p>2 minutes</p>
+            </div>
+            <div class="item">
+                <img src="/assets/carousel/post-6.png" alt="">
+                <h3>London Fashion Week's Continued Evolution</h3>
+                <button class="btn">Fashion</button>
+                <p>2 minutes</p>
+            </div>
+            <div class="item">
+                <img src="/assets/carousel/post-7.jpg" alt="">
+                <h3>London Fashion Week's Continued Evolution</h3>
+                <button class="btn">Fashion</button>
+                <p>2 minutes</p>
+            </div>
+            <div class="item">
+                <img src="/assets/carousel/post-8.jpg" alt="">
+                <h3>London Fashion Week's Continued Evolution</h3>
+                <button class="btn">Fashion</button>
+                <p>2 minutes</p>
+            </div>
+            <div class="item">
+                <img src="/assets/carousel/post-9.jpg" alt="">
+                <h3>London Fashion Week's Continued Evolution</h3>
+                <button class="btn">Fashion</button>
+                <p>2 minutes</p>
+            </div>
+            <div class="item">
+                <img src="/assets/carousel/post-10.jpg" alt="">
+                <h3>London Fashion Week's Continued Evolution</h3>
+                <button class="btn">Fashion</button>
+                <p>2 minutes</p>
+            </div>
+        </div>
+
+        <!-- --------------------- Blog Area --------------------- -->
+        <div class="grid-parent">
+            <div class="blog-post-section">
+                <div class="blog-post" data-aos="zoom-in">
+                    <div class="blog-img-container">
+                        <img src="/assets/Blog-post/blog1.png" alt="">
+                    </div>
+                    <h3 class="blog-title">Why should boys have all the fun? it's the women who are making india an
+                        alcohol-loving contry</h3>
+                    <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas
+                        deserunt beatae adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam
+                        tenetur a nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                        illum similique veniam tempore unde?</p>
+                    <button class="btn blog-btn">
+                        Read More &nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <hr class="blog-post-seperator">
+                <div class="blog-post" data-aos="zoom-in">
+                    <div class="blog-img-container">
+                        <img src="/assets/Blog-post/blog2.png" alt="">
+                    </div>
+                    <h3 class="blog-title">Why should boys have all the fun? it's the women who are making india an
+                        alcohol-loving contry</h3>
+                    <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas
+                        deserunt beatae adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam
+                        tenetur a nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                        illum similique veniam tempore unde?</p>
+                    <button class="btn blog-btn">
+                        Read More &nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <hr class="blog-post-seperator">
+                <div class="blog-post" data-aos="zoom-in">
+                    <div class="blog-img-container">
+                        <img src="/assets/Blog-post/blog3.png" alt="">
+                    </div>
+                    <h3 class="blog-title">Why should boys have all the fun? it's the women who are making india an
+                        alcohol-loving contry</h3>
+                    <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas
+                        deserunt beatae adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam
+                        tenetur a nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                        illum similique veniam tempore unde?</p>
+                    <button class="btn blog-btn">
+                        Read More &nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <hr class="blog-post-seperator">
+                <div class="blog-post" data-aos="zoom-in">
+                    <div class="blog-img-container">
+                        <img src="/assets/Blog-post/blog4.png" alt="">
+                    </div>
+                    <h3 class="blog-title">Why should boys have all the fun? it's the women who are making india an
+                        alcohol-loving contry</h3>
+                    <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas
+                        deserunt beatae adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam
+                        tenetur a nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                        illum similique veniam tempore unde?</p>
+                    <button class="btn blog-btn">
+                        Read More &nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="pagination">
+                    <div><i class="fa-solid fa-angle-left angle-icon"></i></div>
+                    <div class="page">1</div>
+                    <div class="page">2</div>
+                    <div class="page">3</div>
+                    <div><i class="fa-solid fa-angle-right angle-icon"></i></div>
+                </div>
+            </div>
+            <aside>
+                <!-- Category -->
+                <section class="category">
+                    <h3 class="sidebar-title">Category</h3>
+                    <div data-aos="fade-left" class="category-btn-container">
+                        <button class="category-btn btn">
+                            <span>Software</span>
+                            <span>(05)</span>
+                        </button>
+                    </div>
+                    <div data-aos="fade-left" class="category-btn-container">
+                        <button class="category-btn btn">
+                            <span>Technology</span>
+                            <span>(02)</span>
+                        </button>
+                    </div>
+                    <div data-aos="fade-left" class="category-btn-container">
+                        <button class="category-btn btn">
+                            <span>Lifestyle</span>
+                            <span>(07)</span>
+                        </button>
+                    </div>
+                    <div data-aos="fade-left" class="category-btn-container">
+                        <button class="category-btn btn">
+                            <span>Shopping</span>
+                            <span>(01)</span>
+                        </button>
+                    </div>
+                    <div data-aos="fade-left" class="category-btn-container">
+                        <button class="category-btn btn">
+                            <span>Food</span>
+                            <span>(08)</span>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Popular Posts -->
+                <section class="popular-post-container">
+                    <h3 class="sidebar-title">Popular Posts</h3>
+                    <div class="popular-post" data-aos="flip-up">
+                        <img src="/assets/popular-post/m-blog-1.jpg" alt="">
+                        <h3 class="popular-post-title">New data recording system to better analyse road accidents</h3>
+                    </div>
+                    <div class="popular-post" data-aos="flip-up">
+                        <img src="/assets/popular-post/m-blog-2.jpg" alt="">
+                        <h3 class="popular-post-title">New data recording system to better analyse road accidents</h3>
+                    </div>
+                    <div class="popular-post" data-aos="flip-up">
+                        <img src="/assets/popular-post/m-blog-3.jpg" alt="">
+                        <h3 class="popular-post-title">New data recording system to better analyse road accidents</h3>
+                    </div>
+                    <div class="popular-post" data-aos="flip-up">
+                        <img src="/assets/popular-post/m-blog-4.jpg" alt="">
+                        <h3 class="popular-post-title">New data recording system to better analyse road accidents</h3>
+                    </div>
+                    <div class="popular-post" data-aos="flip-up">
+                        <img src="/assets/popular-post/m-blog-5.jpg" alt="">
+                        <h3 class="popular-post-title">New data recording system to better analyse road accidents</h3>
+                    </div>
+                </section>
+
+                <!-- Newsletter -->
+                <section class="newsletter-container" data-aos="fade-up">
+                    <h3 class="sidebar-title">Newsletter</h3>
+                    <form action="">
+                        <div class="input-box">
+                            <input type="email" name="" id="" placeholder="Email">
+                        </div>
+                        <div class="submit-box">
+                            <input type="submit" value="Subscribe">
+                        </div>
+                    </form>
+                </section>
+
+                <!-- Popular Tags -->
+                <section class="popular-tags-container">
+                    <h3 class="sidebar-title">Popular Tags</h3>
+                    <div class="capsule-container">
+                        <button data-aos="flip-up" class="popular-tag-capsule">Software</button>
+                        <button data-aos="flip-up" class="popular-tag-capsule">technology</button>
+                        <button data-aos="flip-up" class="popular-tag-capsule">travel</button>
+                        <button data-aos="flip-up" class="popular-tag-capsule">illustration</button>
+                        <button data-aos="flip-up" class="popular-tag-capsule">design</button>
+                        <button data-aos="flip-up" class="popular-tag-capsule">lifestyle</button>
+                        <button data-aos="flip-up" class="popular-tag-capsule">love</button>
+                        <button data-aos="flip-up" class="popular-tag-capsule">project</button>
+                    </div>
+                </section>
+
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <section class="about">
+            <h3 class="footer-title">About us</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non ullam reiciendis soluta quis officiis ipsam
+                quibusdam laboriosam rerum ipsa esse.</p>
+        </section>
+        <section class="footer-newsletter">
+            <h3 class="footer-title">Newsletter</h3>
+            <p>Stay updated with our latest offers</p>
+            <form action="">
+                <div class="input-box">
+                    <input type="email" name="" placeholder="Email" id="">
+                </div>
+                <div class="submit-box">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </form>
+        </section>
+        <section class="instagram">
+            <div class="instagram-title-container">
+                <h3 class="footer-title">Instagram</h3>
+                <div class="circle">
+                    <i class="fa-solid fa-arrow-up up-arrow-icon"></i>
+                </div>
+            </div>
+            <div class="footer-img-grid">
+                <img src="/assets/instagram/thumb-card3.png" alt="">
+                <img src="/assets/instagram/thumb-card4.png" alt="">
+                <img src="/assets/instagram/thumb-card5.png" alt="">
+                <img src="/assets/instagram/thumb-card6.png" alt="">
+                <img src="/assets/instagram/thumb-card7.png" alt="">
+                <img src="/assets/instagram/thumb-card8.png" alt="">
+            </div>
+        </section>
+        <section class="footer-social-handles">
+            <h3 class="footer-title">Follow us</h3>
+            <p>Let us be social</p>
+            <div class="footer-social-link-container">
+                <a href="#" class="footer_social_link">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="footer_social_link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="footer_social_link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="footer_social_link">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </section>
+    </footer>
+</body>
+<!-- jQuery -->
+<script src="/js/jQuery.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Custom JS -->
+<script src="/js/main.js"></script>
+
+</html>
