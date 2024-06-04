@@ -1,0 +1,28 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "mern project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raseshlimbad/Web_Projects.git#ff0b86668a7616c1168f7c1be9bbc57e9bf00efa"
+  },
+  "author": "Rasesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raseshlimbad/Web_Projects/issues"
+  },
+  "homepage": "https://github.com/Raseshlimbad/Web_Projects/tree/ff0b86668a7616c1168f7c1be9bbc57e9bf00efa#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.2"
+  }
+}
